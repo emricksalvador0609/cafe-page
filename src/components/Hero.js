@@ -1,12 +1,7 @@
-import React, { useEffect, useState } from 'react';
+import React from 'react';
 
 const Hero = () => {
-  const [loaded, setLoaded] = useState(false);
 
-  useEffect(() => {
-    const timeout = setTimeout(() => setLoaded(true), 100);
-    return () => clearTimeout(timeout);
-  }, []);
 
   return (
     <section
