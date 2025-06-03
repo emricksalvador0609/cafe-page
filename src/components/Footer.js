@@ -1,17 +1,17 @@
 import React from 'react';
 
 const Footer = () => (
-  <footer className="bg-indigo-900 text-indigo-200 py-12 px-6 text-center select-none">
-    <p className="mb-2">© {new Date().getFullYear()} NexaFlow, Inc.</p>
+  <footer className="bg-rose-600 text-indigo-200 py-12 px-6 text-center select-none">
+    <p className="mb-2">© {new Date().getFullYear()} Café Bliss</p>
     <div className="flex justify-center space-x-8">
-      <a href="#features" className="hover:text-white transition">
-        Features
+      <a href="#menu" className="hover:text-white transition">
+        Menu
       </a>
-      <a href="#pricing" className="hover:text-white transition">
-        Pricing
+      <a href="#gallery" className="hover:text-white transition">
+        Gallery
       </a>
-      <a href="#contact" className="hover:text-white transition">
-        Contact
+      <a href="#about" className="hover:text-white transition">
+        About
       </a>
     </div>
   </footer>
